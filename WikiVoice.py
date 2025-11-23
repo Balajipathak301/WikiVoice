@@ -94,7 +94,6 @@ while True:
         continue_query = takecommand().lower()
 
         if 'terminate' in continue_query:
-            # Change 4: Remove "sir"
             speak("Thank you . Have a nice day.")
             exit()
         elif 'continue' in continue_query:
